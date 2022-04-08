@@ -109,7 +109,6 @@ def wvdrm_write_signals(g_record, my_signal):
   # default value of times to add a signal value to the string 
   repeater = 1
 	
-  # flag to maybe help handle the last iteration, currently no use
   last = False
   
   for i,v in enumerate(keyList):
